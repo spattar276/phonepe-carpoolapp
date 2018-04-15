@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>carpool app</title>
+    <!-- Compiled and minified CSS -->
+    <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/carpoolapp.css" type="text/css">
+  </head>
+  <body>  
+      <header class="row">
+          <div class="logo_container">
+            <a href="#" class="mdi mdi-car mdi-36px"></a>
+          </div>
+          <div class="col s5"><h5>LOGIN TO APP</h4></div>
+      </header>
+    <main class="container">
+      <form class="row" name="loginForm" action="/views/register.html" >
+        <div  class="z-depth-3">
+          <div class="input-field ">
+            <input placeholder="enter 10 digit mibile number or email ID" id="username" type="text" class="validate" required>
+            <label for="username">Username</label>
+          </div>
+          <div class="input-field ">
+            <input id="password" type="password" class="validate" required>
+            <label for="password">Password</label>
+          </div>
+          <a href="#">FORGOT PASSWORD</a>
+          <div class="">
+            <button class="btn waves-effect waves-light"  name="action" type="submit" >LOGIN</button>
+          </div> 
+         </div> 
+      </form>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> 
+    <!-- built files will be auto injected -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

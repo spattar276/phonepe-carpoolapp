@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>carpool app</title>
+    <!-- Compiled and minified CSS -->
+    <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/carpoolapp.css" type="text/css">
+  </head>
+  <body>  
+      <header class="row">
+          <div class="logo_container">
+            <a href="#" class="mdi mdi-car mdi-36px"></a>
+          </div>
+          <div class="col s5"><h5>REGISTER WITH APP</h5></div>
+        </header>
+    <main class="container">
+      <form class="row" action="/views/commuterSearch.html">  
+        <div class="z-depth-3"> 
+        <div class="input-field ">
+          <input placeholder="Full Name" id="user_fullname" type="text" class="validate" placeholder="enter your firstname and lastname" required>
+          <label for="user_fullname">Full Name</label>
+        </div>
+        <div class="input-field ">
+          <input id="user_email" type="email" class="validate" placeholder="enter your email id" required>
+          <label for="user_email">Email</label>
+        </div>
+        <div class="input-field ">
+            <input id="user_mobilenumber" type="number" class="validate" placeholder="enter your 10 digit mobile number" required>
+            <label for="user_mobilenumber">Mobile Number</label>
+        </div>
+        <div class="input-field ">
+            <input id="user_password" type="password" class="validate" placeholder="set your Password" required>
+            <label for="user_password">Password </label>
+        </div>
+        <div class="input-field ">
+            <input id="user_repassword" type="password" class="validate" placeholder="re-enter your password" required>
+            <label for="user_repassword"> Renter Password</label>
+        </div>
+        <div class="input-field ">
+            <input id="user_carmodel" type="text" class="validate" placeholder="name of the car you have" required  >
+            <label for="user_carmodel"> Car Model</label>
+        </div>
+        <div class="">
+          <button class="btn waves-effect waves-light"  name="action" type="submit"  >REGISTER</button>
+        </div> 
+        </div> 
+      </form>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> 
+    <!-- built files will be auto injected -->
+    <script src="/js/register.js"></script>
+  </body>
+</html>

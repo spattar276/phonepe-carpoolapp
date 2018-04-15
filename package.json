@@ -1,0 +1,21 @@
+{
+  "name": "carpoolapp",
+  "version": "1.0.0",
+  "description": "App that help for users to commute without their own car",
+  "main": "index.js",
+  "author": "Soumya Pattar",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.3",
+    "http-server": "^0.11.1",
+    "mdi": "^2.2.43"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  }
+}

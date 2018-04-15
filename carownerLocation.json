@@ -1,0 +1,64 @@
+[ {
+    "route": "Kormangala to Jayanagar",
+    "lat": 12.9314583,
+    "long": 77.62998579999999,
+    "name": "Soumya",
+    "car": "Polo",
+    "rating": 4.5,
+    "id": 1
+  },
+  {
+    "route": "Kormangala to Jayanagar",
+    "lat": 12.9273934,
+    "long": 77.6266167,
+    "name": "Ramya",
+    "car": "Swift",
+    "rating": 4.0,
+    "id": 2
+  },
+  {
+    "route": "Indiranagar to Whitefield",
+    "lat": 12.9636727,
+    "long": 77.64229390000003,
+    "name": "Soujanaya",
+    "car": "Swift",
+    "rating": 4.5,
+    "id": 3
+  },
+  {
+    "route": "Banashankari to Jayanagar",
+    "lat": 12.9345271,
+    "long": 77.5435215,
+    "name": "Sukanya",
+    "car": "hexa",
+    "rating": 4.0,
+    "id": 4
+  },
+  {
+    "route": "Jaynagar to Uttarhalli",
+    "lat": 12.9250074,
+    "long": 77.59380280000005,
+    "name": "Bhagya",
+    "car": "Polo",
+    "rating": 4.0,
+    "id": 5
+  },
+  {
+    "route": "Silk Board to Jayanagar",
+    "lat": 12.9165413,
+    "long": 77.62203120000004,
+    "name": "Soukya",
+    "car": "indica",
+    "rating": 4.0,
+    "id": 6
+  },
+  {
+    "route": "Agara to Jayanagar",
+    "lat": 12.620189,
+    "long": 77.48033340000006,
+    "name": "Soukya",
+    "car": "indigo",
+    "rating": 4.0,
+    "id": 7
+  } 
+]

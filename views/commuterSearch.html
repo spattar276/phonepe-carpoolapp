@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>carpool app</title>
+    <!-- Compiled and minified CSS -->
+    <link href="/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/carpoolapp.css" type="text/css">
+  </head>
+  <body>  
+    <header class="row">
+      <div class="logo_container">
+        <a href="#" class="mdi mdi-car mdi-36px"></a>
+      </div>
+      <div class="col s5"><h5>PICK A RIDE</h5></div>
+    </header>
+    <main>
+      <section class="map_container row">
+        <div id="carOwnerLocationMap"></div>
+        <div class="col s4 start_container">
+          <div class="input-field ">
+            <input placeholder="enter start location" id="fromSource" type="text" class="validate" onKeydown="searchSD(event)">
+            <label for="fromSource">Start From</label>
+          </div>
+        </div>  
+        <div class="col s4 destination_container">
+          <div class="input-field">
+            <input placeholder="enter destination" id="toDestination" type="text" class="validate" onKeydown="searchSD(event)">
+            <label for="toDestination">Destination</label>
+          </div>
+        </div>  
+      </section>
+      <section class="container" id="owners-list">
+          
+      </section>
+      <section class="container footer_container">
+        <div >
+          <button id="confirmRide-button"class="btn waves-effect waves-light" disabled onclick="alert('Ride is confirmed')">CONFIRM RIDE</button>
+        </div>  
+        </div>  
+      </section>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMoRYY601kjUTLIQllymwFh6_R3ySlLvo"
+    async defer></script>
+    <!-- built files will be auto injected -->
+    <script src="/js/commutersearch.js"></script>
+  </body>
+</html>
+
+
